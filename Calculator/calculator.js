@@ -9,6 +9,7 @@ function back(){
 }
 function clean(){
     document.form.textview.value = ""; 
+    console.log(document.form.textview.value);
 }
 function equal(){
     let a = document.form.textview.value;
